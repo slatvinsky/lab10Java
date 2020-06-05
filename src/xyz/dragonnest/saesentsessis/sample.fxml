@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="480.0" style="-fx-background-color: #afdaef;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xyz.dragonnest.saesentsessis.Controller">
+   <children>
+      <Pane fx:id="backpane" prefHeight="678.0" prefWidth="480.0" style="-fx-background-color: #203040;" />
+      <Canvas fx:id="canvas" height="678.0" width="480.0" />
+      <Slider fx:id="slider" layoutX="456.0" layoutY="15.0" max="1.0" min="0.0" orientation="VERTICAL" prefHeight="648.0" prefWidth="14.0" />
+      <TextField fx:id="inputThreads" alignment="CENTER" layoutX="3.0" layoutY="682.0" prefHeight="34.0" prefWidth="172.0" promptText="Enter number of threads" style="-fx-background-color: #eeeeff;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="inputSteps" alignment="CENTER" layoutX="183.0" layoutY="682.0" prefHeight="34.0" prefWidth="172.0" promptText="Enter amount of steps" style="-fx-background-color: #eeeeff;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="calcButton" alignment="CENTER" disable="true" layoutX="363.0" layoutY="681.0" mnemonicParsing="false" opacity="0.7" prefHeight="34.0" prefWidth="114.0" style="-fx-background-color: #203050;" text="Calculate" textFill="#51d043" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
